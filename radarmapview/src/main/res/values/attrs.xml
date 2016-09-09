@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RadarMapView">
+
+        <attr name="division" format="integer"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="fillColor" format="color"/>
+        <attr name="strokeWidth" format="float"/>
+
+    </declare-styleable>
+
+
+</resources>
