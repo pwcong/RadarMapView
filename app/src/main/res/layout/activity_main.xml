@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="me.pwcong.radarmapviewdemo.MainActivity">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <me.pwcong.radarmapview.view.RadarMapView
         android:id="@+id/radarMapView"
         android:layout_width="400dp"
         android:layout_height="400dp"
-        app:textColor="@color/colorPrimaryDark"
-        app:fillColor="#cc008891"
-        app:lineColor="#666"
-        app:textSize="20sp"
-        app:division="5"
-        app:strokeWidth="1"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        app:division="5"
+        app:fill_color="#cc008891"
+        app:line_color="#666"
+        app:stroke_width="1"
+        app:text_color="@color/black"
+        app:text_size="20sp" />
 </RelativeLayout>
