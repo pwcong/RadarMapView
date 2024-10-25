@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "me.pwcong.radarmapviewdemo"
+    namespace = "com.github.pwcong.radarmapviewdemo"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "me.pwcong.radarmapviewdemo"
+        applicationId = "com.github.pwcong.radarmapviewdemo"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

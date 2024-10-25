@@ -15,7 +15,7 @@ see https://jitpack.io/#pwcong/RadarMapView
 Add it in your layout.
 
 ```
-<me.pwcong.radarmapview.view.RadarMapView
+<com.github.pwcong.radarmapview.view.RadarMapView
     android:id="@+id/radarMapView"
     android:layout_width="400dp"
     android:layout_height="400dp"

@@ -1,4 +1,4 @@
-package me.pwcong.radarmapview.view
+package com.github.pwcong.radarmapview.view
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,8 +7,8 @@ import android.graphics.Paint
 import android.graphics.Path
 import android.util.AttributeSet
 import android.view.View
-import me.pwcong.radarmapview.R
-import me.pwcong.radarmapview.entry.RadarMapEntry
+import com.github.pwcong.radarmapview.R
+import com.github.pwcong.radarmapview.entry.RadarMapEntry
 import kotlin.math.cos
 import kotlin.math.sin
 

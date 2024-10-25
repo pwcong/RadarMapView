@@ -1,10 +1,10 @@
-package me.pwcong.radarmapviewdemo
+package com.github.pwcong.radarmapviewdemo
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import me.pwcong.radarmapview.entry.RadarMapEntry
-import me.pwcong.radarmapview.view.RadarMapView
+import com.github.pwcong.radarmapview.entry.RadarMapEntry
+import com.github.pwcong.radarmapview.view.RadarMapView
 
 class MainActivity : AppCompatActivity() {
     var radarMapView: RadarMapView? = null

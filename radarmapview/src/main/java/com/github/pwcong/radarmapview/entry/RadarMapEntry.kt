@@ -1,4 +1,4 @@
-package me.pwcong.radarmapview.entry
+package com.github.pwcong.radarmapview.entry
 
 class RadarMapEntry(var name: String, var value: Float) {
     var angle: Float = 0f

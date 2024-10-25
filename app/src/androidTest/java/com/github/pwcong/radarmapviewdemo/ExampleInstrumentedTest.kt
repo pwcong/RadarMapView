@@ -1,4 +1,4 @@
-package me.pwcong.radarmapviewdemo
+package com.github.pwcong.radarmapviewdemo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("me.pwcong.radarmapviewdemo", appContext.packageName)
+        assertEquals("com.github.pwcong.radarmapviewdemo", appContext.packageName)
     }
 }

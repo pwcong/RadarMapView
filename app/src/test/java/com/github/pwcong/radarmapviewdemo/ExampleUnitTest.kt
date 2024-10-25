@@ -1,4 +1,4 @@
-package me.pwcong.radarmapview
+package com.github.pwcong.radarmapviewdemo
 
 import org.junit.Test
 

@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "me.pwcong.radarmapview"
+    namespace = "com.github.pwcong.radarmapview"
     compileSdk = 34
 
     defaultConfig {
